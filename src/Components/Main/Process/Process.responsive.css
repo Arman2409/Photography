@@ -1,0 +1,20 @@
+@media screen and (max-width:776px) {
+    .process-title{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:480px){
+    .process-title{
+        font-size: 30px;
+    }
+    .process-div{
+        height:600px;
+    }
+    .process-content{
+        height: 500px;
+    }
+    .process-content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.photo-div{
+    width: 225px;
+    height: 200px;
+    margin: 15px;
+    border: 2px solid #5666A0;
+    cursor: pointer;
+}
+.photo-div:hover{
+    width: 230px;
+    height: 205px;
+    margin: 5px;
+    border: 3px dashed purple;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+}

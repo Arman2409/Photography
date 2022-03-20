@@ -1,0 +1,17 @@
+@media screen and (max-width:589px){
+    .choosing-type-div{
+        width: 300px;
+    }
+    .choose-div p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:415px){
+    .choosing-type-div{
+        width: 220px;
+        height: 40px;
+    }
+    .choose-div p{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+.slider-div {
+  width: 100%;
+  height: 600px;
+  background-color: #26e46f;
+}
+.slider-buttons-div{
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+.slider-button{
+ width: 55px;
+ height: 55px;
+ border:1px solid #96EED7;
+ position: absolute;
+ top: 350px;
+ cursor: pointer;
+ padding: 0;
+ border: 0;
+ z-index: 2;
+ outline: none;
+}
+#previous-button{
+  left: 20px;
+  transform: rotate(180deg);
+}
+#next-button{
+  right: 20px;
+}
+.change-image{
+  width: 100%;
+  height: 100%;
+}
+.slider-button:hover{
+   opacity: 0.5;
+}
+.slider-content{
+  width: 100%;
+  height: 100%;
+}

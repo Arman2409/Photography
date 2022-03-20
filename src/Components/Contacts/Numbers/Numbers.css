@@ -1,0 +1,63 @@
+.numbers-div{
+    width: 100%;
+}
+.contacts-title{
+    font-size: 25px;
+    color:#5666A0;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+    text-shadow: 12px 12px 6px rgba(154, 150, 150, 1);
+}
+.contacts-title:hover{
+    color: #96EED7;
+}
+.numbers-content-div{
+    width: 100%;
+    position: relative;
+    top: 25px;
+}
+.numbers-div ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+}
+.number-li{
+    width: 100%;
+    height: 125px;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 2px solid #96EED7;
+    color: #5666A0;
+    transition: 0.5s;
+    position: relative;
+}
+.number-li:hover{
+    background-color:#5666A0 ;
+    color:#96EED7;
+}
+.number-li:hover .country{
+    font-size: 30px;
+}
+.number-li:hover .number{
+    font-size: 25px;
+    top: 20px;
+}
+.country{
+    font-size: 25px;
+}
+.country-image{
+    width: 60px;
+    height: 40px;
+    margin-right: 25px;
+}
+.number{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}

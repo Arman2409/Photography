@@ -1,0 +1,7 @@
+@media screen and (max-width:700px){
+    .company-button{
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 0px 10px 2px #000000;
+    }
+}

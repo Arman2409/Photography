@@ -1,0 +1,63 @@
+@media screen and (max-width:889px){
+    .photo-div{
+        width: 175px;
+        height: 155px;
+    }
+    .photo-div:hover{
+        width: 180px;
+        height: 160px;
+    }
+}
+@media screen and (max-width:776px){
+    .photo-div{
+        width: 160px;
+        height: 145px;
+    }
+    .photo-div:hover{
+        width: 165px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:686px){
+    .photo-div{
+        width: 140px;
+        height: 125px;
+    }
+    .photo-div:hover{
+        width: 145px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:610px){
+    .photo-div{
+        width: 140px;
+        height: 125px;
+        margin: 5px;
+    }
+    .photo-div:hover{
+       width: 140px;
+       height: 125px;
+    }
+}
+@media screen and (max-width:542px){
+    .photo-div{
+        width: 180px;
+        height: 150px;
+    }
+    .photo-div:hover{
+       width: 170px;
+       height: 140px;
+    }
+}
+@media screen and (max-width:441px){
+    .photo-div{
+        width: 250px;
+        height: 220px;
+        margin: 20px;
+    }
+    .photo-div:hover{
+       width: 230px;
+       height: 205px;
+       margin: 25px;
+    }
+}

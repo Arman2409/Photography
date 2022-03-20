@@ -1,0 +1,28 @@
+.description-div{
+    width: 100%;
+    height: 600px;
+    background-color: inherit;
+    position: relative;
+    text-align: center;
+    padding-top: 120px;
+}
+.description-head{
+    font-size: 40px;
+    color:#5666A0;
+    text-shadow: 12px 12px 6px rgba(154, 150, 150, 1);
+}
+.history-div{
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+.first-photo-image{
+   width: 200px;
+   height: 150px;
+   margin-left: 5px;
+}
+.history-p{
+    color:#96EED7;
+}

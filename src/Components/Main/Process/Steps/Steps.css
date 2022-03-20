@@ -1,0 +1,133 @@
+.steps-div{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+.steps-content-1{
+    width:400px;
+}
+.steps-ul{
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.steps-li{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color:#96EED7 ;
+}
+.steps-li:hover{
+    background-color:#5666A0;
+    color: #26e46f;
+}
+.li-icon{
+    margin: 0 20px;
+}
+.steps-content-2{
+    width: 500px;
+    height: 400px;
+    margin:0 auto;
+    position: relative;
+}
+.a-step-div{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.step-icon{
+    color:#96EED7;
+    font-size: 100px;
+}
+#step-div-1{
+   left: 40%;
+}
+#handshake2-icon{
+    display: none;
+}
+#step-div-1:hover #handshake1-icon{
+    display: none;
+}
+#step-div-1:hover #handshake2-icon{
+   display: block;
+}
+#step-div-2{
+    left: 75%;
+    top: 3%;
+}
+#step-div-2:hover #images-icon{
+   display: block;
+}
+#step-div-2:hover #image-icon{
+    display: none;
+}
+#images-icon{
+   display: none;
+}
+#step-div-3{
+    top: 6%;
+    left: 40%;
+}
+#edit2{
+    display: none;
+}
+#step-div-3:hover #edit1{
+   display: none;
+}
+#step-div-3:hover #edit2{
+    display: block;
+}
+#step-div-4{
+    position: absolute;
+    top: 35%;
+}
+#envelope2{
+    display: none;
+}
+#step-div-4:hover #envelope1{
+   display: none;
+}
+#step-div-4:hover #envelope2{
+    display: block;
+}
+.arrow-div{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.arrow-icon{
+     color:#5666A0;;
+    font-size: 50px;
+}
+#arrow-div-1{
+    top: 20%;
+    left: 65%;
+    transform: rotate(45deg);
+}
+#arrow-div-2{
+    top: 60%;
+    left: 65%;
+    transform: rotate(135deg);
+}
+#arrow-div-3{
+    top: 60%;
+    left: 25%;
+    transform: rotate(225deg);
+}
+#arrow-div-4{
+    top: 25%;
+    left: 25%;
+    transform: rotate(325deg);
+}

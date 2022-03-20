@@ -1,0 +1,16 @@
+.instruction-div{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    background-color:#96EED7;
+    opacity: 0.8;
+    border: 1px solid #5666A0;
+}
+.instruction-title{
+    color: #5666A0;
+}

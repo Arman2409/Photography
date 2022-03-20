@@ -1,0 +1,18 @@
+@media screen and (max-width:878px){
+    .more-title{
+        font-size: 28px;
+    }
+    .more-div-content{
+        width: 90%;
+    }
+}
+@media screen and (max-width:478px){
+    .more-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:368px){
+    .more-title{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width:794px){
+    .first-photo-image{
+        width:160px ;
+  height: 120px
+    }
+   }
+@media screen and (max-width:686px){
+ .desciption-head{
+     font-size: 30px;
+ }   
+}
+@media screen and (max-width:576px){
+    .history-div{
+        width: 90%;
+    }
+}
+@media screen and (max-width:450px){
+    .history-p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #26e46f;
+  width: 100%;
+}
+
+div, input, section {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #5666A0;
+  position:fixed;
+  z-index: 3;
+  opacity: 0.75;
+}
+
+.header-content {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo-div {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-ul {
+  width: 500px;
+  height: 100%;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.navigation-ul li {
+  width: 25%;
+  height: 100%;
+  background-color: inherit;
+  border: 1px solid #96EED7;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 1s;
+}
+.navigation-ul li a {
+  font-size: 22px;
+  color:#26e46f;
+  padding: 26%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-ul li:hover {
+  background-color: #96EED7;
+  border: 5px solid #5666A0;
+}
+.navigation-ul li:hover a{
+  color:#5666A0;
+}
+
+.intro-div {
+  height: 70px;
+  width: 400px;
+  display: flex;
+  overflow: hidden;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 15px;
+  font-family: monospace;
+}
+.navigation-responsive-button{
+  background-color: inherit;
+   width: 50px;
+   height: 50px;
+   background-color:inherit;
+   align-self: center;
+   margin-right: 10px;
+   border-radius: 5px;
+   border: 4px solid #96EED7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   display: none;
+}
+.nav-icon{
+  font-size: 25px;
+  color: #FF985C;
+}
